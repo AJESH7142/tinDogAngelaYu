@@ -1,0 +1,24 @@
+pick and mix selectors
+--------------------
+
+1 - multiple selectors
+   selector1, selector2, tagName {
+
+   }
+
+2 - heirarchial selectors
+   selector1 selector2 {
+
+   }
+   where selector1 is the parent and selector2 is the child styles only apply to the child inside the specific parent no child named selector2 outside the parent selector1 will be affected
+
+3 - combined selectors
+   tagName.selector{
+
+   }
+   style applies to the content inside the tagName which has class name selector
+
+   .selector1.selector2{
+
+   }
+   styles applies to element which has both the class name selector1 and selector2
